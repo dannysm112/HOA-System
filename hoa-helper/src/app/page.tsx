@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
         <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mt-4">
-          Welcome to Property Manager
+          Welcome to the Homeowner Helper
         </h1>
         <p className="text-gray-600 dark:text-gray-300 mt-2 text-center">
           Please select your role to get started

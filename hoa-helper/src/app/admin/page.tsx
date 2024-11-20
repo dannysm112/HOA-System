@@ -11,7 +11,7 @@ export default function AdminDashboard() {
     }
 
     // Sample data for demonstration purposes
-    const [owners] = useState([
+    const [owners, setOwners] = useState([
         { id: 1, name: "John Doe", property: "123 Maple St", status: "Paid" },
         { id: 2, name: "Jane Smith", property: "456 Oak St", status: "Pending" },
         { id: 3, name: "Alice Johnson", property: "789 Pine St", status: "Paid" },
