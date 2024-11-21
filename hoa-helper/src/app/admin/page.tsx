@@ -37,17 +37,17 @@ export default function AdminDashboard() {
   return (
     <div className="min-h-screen p-8">
       <header className="mb-10">
-        <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
+        <h1 className="text-3xl font-bold dark:text-gray-700">
           HOA Admin Dashboard
         </h1>
-        <p className="text-gray-600 dark:text-gray-300 mt-2">
+        <p className="dark:text-gray-700 mt-2">
           View all property owners and manage payment statuses.
         </p>
       </header>
 
       <div className="flex justify-between items-center mb-6">
         <div>
-          <label className="mr-2 font-semibold text-gray-700 dark:text-gray-200">
+          <label className="mr-2 font-semibold dark:text-gray-700">
             Filter by Status:
           </label>
           <select
@@ -96,7 +96,7 @@ export default function AdminDashboard() {
                   {owner.status === "Pending" && (
                     <button
                       onClick={() => sendReminder(owner.id)}
-                      className="text-sm text-white bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded"
+                      className="text-sm text-white dark:bg-gray-600 hover:dark:bg-gray-500 px-3 py-1 rounded"
                     >
                       Send Reminder
                     </button>
